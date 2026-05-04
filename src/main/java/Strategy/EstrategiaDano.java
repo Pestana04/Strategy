@@ -1,4 +1,6 @@
 package Strategy;
 
-public class EstrategiaDano {
+public interface EstrategiaDano {
+
+    int calcular(int dado, int modificador);
 }
